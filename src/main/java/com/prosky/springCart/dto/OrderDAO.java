@@ -9,10 +9,10 @@ import java.util.List;
 
 @Repository
 @SessionScope
-public class OrderDto {
+public class OrderDAO {
     private final List<Integer> ids;
 
-    public OrderDto() {
+    public OrderDAO() {
         this.ids = new ArrayList<>();
     }
 
